@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <script src="https://kit.fontawesome.com/27f6bf650d.js" crossorigin="anonymous"></script>
+</head>
+<style>
+
+    *{
+
+        margin: 0;
+        
+    }
+
+    .container{
+
+        /* width: 100%;
+        height: 200vh; */
+
+        margin: 20px;
+        margin-top: 30px;
+      
+
+        /* background-color: azure; */
+
+         h1{
+
+        font-size: 100px;
+        text-align: center;
+
+        margin-top: 30px;
+    }
+
+
+
+  
+
+  
+
+    }
+
+    .header{
+
+        /* background-color: aquamarine; */
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+       h2{
+        font-size: 30px;
+       }
+
+        
+        
+    }
+
+    .a{
+
+        display: flex;
+        gap: 30px;
+        
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        
+    }
+
+      button{
+
+            padding: 15px 40px;
+            border-radius: 20px;
+
+            background-color: rgb(177, 214, 177);
+            border: 0.5px solid gray;
+
+            font-size: 15px;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+   
+  
+
+   .img{
+
+    width: 100%;
+    height: 50vh;
+
+    background-color: rgb(119, 151, 119);
+    border: px solid;
+    border-radius: 20px ;
+    margin-top: 200px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+
+    img{
+
+        height: 60vh;
+        width: 50%;
+        margin-bottom: 10vh;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    p{
+        margin-top: 50px;
+        font-size: 20px;
+        color: rgba(44, 35, 35, 0.461);
+    }
+
+    .sponser{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 100px;
+
+
+        i{
+            font-size: 60px;
+            color: rgba(44, 35, 35, 0.461) ;
+        }
+    }
+    hr{
+
+        margin-top: 40px;
+        color:rgba(44, 35, 35, 0.461) ;
+    }
+
+    .p{
+
+
+    
+
+        p{
+
+            color:rgba(44, 35, 35, 0.461)  ;
+            
+        }
+
+        h2{
+            margin-top: 40px;
+            font-size: 40px;
+        }
+        b{
+
+          
+            font-size: 20px;
+            font-weight: normal;
+            color:rgba(44, 35, 35, 0.461) ;
+            
+        }
+
+    }
+
+    .box{
+
+        /* background-color: bisque; */
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(1,1fr);
+        gap: 20px;
+
+        margin-top: 50px;
+
+        i{
+            font-size: 30px;
+        }
+
+        p{
+            font-size: 15px;
+        }
+
+       
+    } 
+
+    .img1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+
+        img{
+            width: 100%;
+            height: 90vh;
+
+            border-radius: 30px;
+        }
+    }
+
+    .boxx{
+
+        /* background-color: aquamarine; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+
+        gap: 40px;
+
+         h1{
+        font-size: 40px;
+        text-align: left;
+    }
+
+    b{
+        font-size: 17px;
+        font-weight: normal;
+    }
+
+    button{
+
+        padding: 15px 40px;
+        background-color: transparent;
+
+        border-radius: 20px;
+        margin-top: 40px;
+
+        background-color: rgb(177, 214, 177);
+        border: 0.5px solid gray;
+
+        font-size: 15px;
+        font-family:'Times New Roman', Times, serif;
+
+    }     
+
+    }
+
+   
+
+    .boxx2{
+
+        img{
+
+            width: 90%;
+            height: 90vh;
+            border-radius: 30px;
+            object-fit: cover;
+            
+        }
+    }
+   
+
+    .Specification{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+
+    u{
+        font-size: 15px;
+        text-decoration: none;
+
+        margin-top: 50px;
+    }
+    strong{
+
+        font-size: 50px;
+        margin-top: 30px;
+
+
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    button{
+
+
+        background-color: transparent;
+
+        border-radius: 20px;
+        margin-top: 40px;
+
+        background-color: rgb(177, 214, 177);
+        border: 0.5px solid gray;
+
+        font-size: 15px;
+        font-family:'Times New Roman', Times, serif;
+
+
+
+    }
+
+    table{
+
+        /* background-color: aquamarine; */
+
+        width: 100%;
+        height: 60vh;
+        margin-top: 50px;
+
+        border: 1px solid;
+
+        border-radius: 20px;
+
+        
+    }
+
+    td{
+
+        text-align:left;
+        font-size: 20px;
+       padding: 20px;
+
+        line-height: 30px;
+        color: rgb(62, 61, 61);
+
+        
+    }
+
+    th{
+
+        font-size: 30px;
+
+        line-height: 50px;
+        text-decoration: underline;
+    }
+
+   
+    }
+
+    .boo{
+
+        /* background-color: aqua; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .img2{
+
+         img{
+
+         margin-top:50px ; 
+
+        width: 500px;
+        height: 600px;
+        object-fit: cover;
+
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
+    }
+
+    .pp{
+
+        p{
+            font-size: 30px;
+            line-height: 50px;
+            color: black;
+            font-weight: 50px;
+        }
+    }
+
+    .under{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50%;
+
+        h2{
+            font-size: 50px;
+        }
+
+       
+
+    }
+
+.bb{
+
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    p{
+        font-size: 20px;
+    }
+    b{
+        line-height: 50px;
+        color: black;
+    }
+    h1{
+        text-align: left;
+        font-weight: normal;
+        color: rgba(194, 186, 186, 0.649);
+    }
+
+    
+}
+
+.img3{
+
+    img{
+        width: 100%;
+        height: 80vh;
+
+        margin-top: 50px;
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+
+   h2{
+    font-size: 50px;
+   }
+
+   p{
+    font-size: 20px;
+    color: black;
+   }
+
+   button{
+
+    padding: 10px 200px;
+    margin-top: 20px;
+   }
+}
+
+
+
+   
+   
+</style>
+<body>
+
+    <div class="container">
+        <div class="header">
+        <h2>Area</h2>
+        <div class="a">
+        <a href="#">Benifit</a>
+        <a href="#">Specification</a>
+        <a href="#">How to</a>
+        <a href="#">Contact Us</a>
+        </div>
+        <button>Click here</button>
+        </div>
+
+        <h1>Browse everything.</h1>
+
+        <div class="img">   
+            <img src="https://i.pinimg.com/736x/36/de/44/36de440aad4dfedd4c29a3d65ce8bb07.jpg" >
+        </div>
+
+        <p>Trusted by:</p>
+
+        <div class="sponser">
+           <i class="fa-brands fa-react"></i>
+           <i class="fa-brands fa-square-js"></i>
+           <i class="fa-brands fa-java"></i>
+           <i class="fa-brands fa-python"></i>
+           <i class="fa-brands fa-linux"></i>
+
+        </div>
+        <hr>
+
+        <div class="p">
+            <p>Benifit</p>
+            <h2>We've cracked the code.</h2><br><br>
+            <b>Area provides real insights, without the data overload.</b>
+        </div><br>
+
+        <div class="box">
+            <div class="box1">
+                <hr> <br>
+                <i class="fa-brands fa-cotton-bureau"></i><br>
+                <b>Amplify Insights</b>
+                <p>Unlock data-driven decisions with comprehensive analytics, revealing key opportunities for strategic regional growth.</p>
+            </div>
+            <div class="box2">
+                <hr> <br>
+               <i class="fa-brands fa-cloudscale"></i><br>
+                <b>Control Your Global Presence</b>
+                <p>Manage and track satellite offices, ensuring consistent performance and streamlined operations everywhere.</p>
+            </div>
+            <div class="box3">
+                <hr> <br>
+                <i class="fa-brands fa-centos"></i><br>
+                <b>Remove Language Barriers</b>
+                <p>Adapt to diverse markets with built-in localization for clear communication and enhanced user experience.</p>
+            </div>
+            <div class="box4">
+                <hr> <br>
+                <i class="fa-brands fa-d-and-d"></i><br>
+                <b>Visualize Growth</b>
+                <p>Generate precise, visually compelling reports that illustrate your growth trajectories across all regions.</p>
+
+            </div>
+        </div>
+
+        <div class="img1">
+            <img src="https://i.pinimg.com/736x/0a/fd/74/0afd74d5ed31747ba3cd827353b600e3.jpg" alt="">
+        </div>
+        
+        <div class="boxx">
+
+        <div class="boxx1">
+            <hr><br>
+            <h1>See the Big Picture</h1>
+            <p>Area turns your data into clear, vibrant visuals that show you exactly what's happening in each region.</p>
+            <hr><br>
+            <b>01 Spot Trends in Seconds: No more digging through numbers. </b>
+            <hr><br>
+            <b>02 Get Everyone on the Same Page: Share easy-to-understand reports with your team.</b> 
+            <hr><br>
+            <b>03 Make Presentations Pop: Interactive maps and dashboards keep your audience engaged.</b>
+            <hr><br>
+            <b>04 Your Global Snapshot: Get a quick, clear overview of your entire operation.</b>
+            <br>
+            <button>Discover More</button>
+        </div>
+        <div class="boxx2">
+            <br><br>
+            <img src="https://i.pinimg.com/1200x/b8/c2/76/b8c2765dc54ba34641d814b03ac890c5.jpg" alt="">
+        </div>
+
+        </div>
+
+        <hr>
+        <div class="Specification">
+        <u>Specs</u>
+        <strong>Why Choose Area?</strong>
+        <p>You need a solution that keeps up. That’s why we developed Area. A developer-friendly approach to streamline your business. </p>
+        <button>Discover More</button>
+
+        <table>
+            <tr>
+                <th>Areav
+                    <hr>
+                </th>
+                <th>WebSurge
+                    <hr>
+                </th>
+                <th>HyperView
+                    <hr>
+                </th>
+                
+                
+            </tr>
+            <tr>
+                <td>Ultra-fast browsing</td>
+                <td>Fast browsing </td>
+                <td>Moderate speeds</td> 
+            </tr>
+            <tr>
+                <td>Advanced AI insights</td>
+                <td>Basic AI recommendations</td>
+                <td>No AI assistance</td>
+                
+            </tr>
+             <tr>
+                <td>Seamless integration</td>
+                <td>Restricts customization</td>
+                <td>Steep learning curve</td>
+                
+            </tr>
+             <tr>
+                <td>Advanced AI insights</td>
+                <td>Basic AI insights</td>
+                <td>No AI assistance</td>
+                
+            </tr>
+             <tr>
+                <td>Ultra-fast browsing </td>
+                <td>Fast browsing</td>
+                <td>Moderate speeds</td>
+                
+            </tr>
+             <tr>
+                <td>Full UTF-8 support</td>
+                <td>Potential display errors</td>
+                <td>Partial UTF-8 support</td>
+                
+            </tr> 
+
+        </table>
+
+        <div class="boo">
+
+        <div class="img2">
+        <img src="https://i.pinimg.com/736x/b6/df/0f/b6df0f4b65d2c205b23f8b1343d82494.jpg" alt="">
+        </div>
+    
+        <div class="pp">
+            <p>“I was skeptical, but Area has completely transformed the way I manage my business. The data visualizations are so clear and intuitive, and the platform is so easy to use. I can't imagine running my company without it.”</p>
+        </div>
+        </div>
+        </div>
+         <div class="under">
+            <h2>Map Your Success</h2>
+            <button>Discover More</button>
+        </div>
+        <hr>
+
+        <div class="bb">
+            <div class="box1">
+                <hr>
+                <h1>01</h1>
+                <p> <b>Get Started </b><br>
+
+With our intuitive setup, you’re up and running in minutes.</p>
+            </div>
+            <div class="box2">
+                <hr>
+                <h1>02</h1>
+                <p><b>Customize and Configure </b><br>
+
+Adapt Area to your specific requirements and preferences.</p>
+            </div>
+            <div class="box3">
+                <hr>
+                <h1>03</h1>
+                <p><b>Grow Your Business</b><br>
+
+Make informed decisions to exceed your goals.</p>
+            </div>
+        </div>
+        <div class="img3">
+            <img src="https://i.pinimg.com/1200x/65/a2/3b/65a23bd9fb01161c9417960efa315172.jpg" >\
+       
+        </div>
+
+        <div class="footer">
+            <h2>Connect with us</h2>
+            <p>Schedule a quick call to learn how Area can turn your regional data into a powerful advantage.</p>
+            <button>Learn more</button>
+        </div>
+        
+        
+ </div>
+
+
+
+       
+
+    
+    
+</body>
+</html>
